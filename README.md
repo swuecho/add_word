@@ -1,6 +1,7 @@
 # todo
 * add sqlite as the backend
 * add word definition
+* replace the template with Text::Xslate
 
 
 
