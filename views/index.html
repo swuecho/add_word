@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form action="add" method="post">
+Input a word  <input type="text" name="word"><br>
+  <input type="submit" value="Submit">
+</form>
+<h2> Current words </h2>
+<ul class=entries>
+  <% IF entries.size %>
+    <% FOREACH word IN entries %>
+      <li><h2><% word %></h2><% word %>
+    <% END %>
+  <% ELSE %>
+    <li><em>Unbelievable.  No entries here so far</em>
+  <% END %>
+ </ul>
+
+</body>
+</html>

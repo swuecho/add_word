@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+ <div class="jumbotron">
+        <h3>add a word to vocabulary</h3>
+ </div>
+<form action="[% add_word_url %]" method="post">
+ <input type="text" class="form-control" name="word" placeholder="add new word">
+ <input type="submit" class="btn btn-default" value="Submit">
+</form>
+<h2> Current words </h2>
+<div class="list-group">
+  [% IF entries %]
+    [% FOREACH word IN entries %]
+      <a href="#" class="list-group-item">[% word %]</a>
+    [% END %]
+  [% ELSE %]
+      <a href="#" class="list-group-item">No words available</a>
+  [% END %]
+</div>
+</div>
+<!-- Latest compiled and minified JavaScript -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>
