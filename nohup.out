@@ -1,0 +1,15 @@
+HTTP::Server::PSGI: Accepting connections at http://0:5000/
+HTTP::Server::PSGI: Accepting connections at http://0:5000/
+66.249.85.12 - - [04/Jul/2014:12:18:03 -0700] "POST /add HTTP/1.1" 302 0 "http://162.243.92.95:5000/" "Mozilla/5.0 (Linux; Android 4.4.3; XT1032 Build/KXB21.14-L1.32) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36"
+66.249.85.12 - - [04/Jul/2014:12:18:03 -0700] "GET / HTTP/1.1" 200 1932 "http://162.243.92.95:5000/" "Mozilla/5.0 (Linux; Android 4.4.3; XT1032 Build/KXB21.14-L1.32) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36"
+66.249.85.12 - - [04/Jul/2014:12:18:07 -0700] "GET / HTTP/1.1" 200 1932 "http://162.243.92.95:5000/" "Mozilla/5.0 (Linux; Android 4.4.3; XT1032 Build/KXB21.14-L1.32) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36"
+66.249.85.12 - - [04/Jul/2014:12:18:30 -0700] "POST /add HTTP/1.1" 302 0 "http://162.243.92.95:5000/" "Mozilla/5.0 (Linux; Android 4.4.3; XT1032 Build/KXB21.14-L1.32) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36"
+66.249.85.12 - - [04/Jul/2014:12:18:30 -0700] "GET / HTTP/1.1" 200 1991 "http://162.243.92.95:5000/" "Mozilla/5.0 (Linux; Android 4.4.3; XT1032 Build/KXB21.14-L1.32) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.141 Mobile Safari/537.36"
+68.5.115.173 - - [04/Jul/2014:12:39:22 -0700] "GET / HTTP/1.1" 200 1987 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36"
+68.5.115.173 - - [04/Jul/2014:12:39:23 -0700] "GET /favicon.ico HTTP/1.1" 404 505 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36"
+failed to listen to port 80: Permission denied at /home/echo/perl5/lib/perl5/HTTP/Server/PSGI.pm line 94.
+failed to listen to port 80: Permission denied at /home/echo/perl5/lib/perl5/HTTP/Server/PSGI.pm line 94.
+HTTP::Server::PSGI: Accepting connections at http://0:80/
+HTTP::Server::PSGI: Accepting connections at http://0:80/
+68.5.115.173 - - [04/Jul/2014:12:47:51 -0700] "GET / HTTP/1.1" 200 2042 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36"
+68.5.115.173 - - [04/Jul/2014:12:47:53 -0700] "GET / HTTP/1.1" 200 2042 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36"
